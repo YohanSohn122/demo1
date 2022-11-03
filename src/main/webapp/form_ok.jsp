@@ -17,23 +17,23 @@
   String fname = request.getParameter("firstname");
   String lname = request.getParameter("lastname");
   String cname = request.getParameter("country");
-  String age = request.getParameter("age");
-  String position = request.getParameter("position");
-  String back_number = request.getParameter("back_number");
-  String team = request.getParameter("team");
-  String height = request.getParameter("height");
-  String weight = request.getParameter("weight");
-  String service_time request.getParameter("service_time");
+  String a = request.getParameter("age");
+  String pos = request.getParameter("position");
+  String bn = request.getParameter("back_number");
+  String t = request.getParameter("team");
+  String ht = request.getParameter("height");
+  String wt = request.getParameter("weight");
+  String st = request.getParameter("service_time");
 
   out.println("이름 : " + fname + " " + lname + "<br />");
   out.println("출신국 : " + cname + "<br />");
-  out.println("나이 : " + age + "<br />");
-  out.println("포지션 : " + position + "<br />");
-  out.println("등 번호 : " + back_number + "<br />");
-  out.println("팀 : " + team + "<br />");
-  out.println("키 : " + height + "<br />");
-  out.println("몸무게 : " + weight + "<br />");
-  out.println("서비스 타임 : " + service_time + "<br />");
+  out.println("나이 : " + a + "<br />");
+  out.println("포지션 : " + pos + "<br />");
+  out.println("등 번호 : " + bn + "<br />");
+  out.println("팀 : " + t + "<br />");
+  out.println("키 : " + ht + "<br />");
+  out.println("몸무게 : " + wt + "<br />");
+  out.println("서비스 타임 : " + st + "<br />");
 %>
 </body>
 </html>
